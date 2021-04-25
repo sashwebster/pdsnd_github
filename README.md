@@ -7,7 +7,7 @@ Include the date you created this project and README file.
 Analyzing bikeshare data from three cities
 
 ### Description
-Describe what your project is about and what it does
+This project provides information about bikeshare use in three cities in the U.S.
 
 ### Files used
 Three data files were used for analysis: 
