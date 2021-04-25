@@ -73,7 +73,6 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -112,7 +111,6 @@ def load_data(city, month, day):
     #print(df)
     
     return df
-
 
 def time_stats(df, city, month, day):
     """Displays statistics on the most frequent times of travel."""
@@ -158,7 +156,6 @@ def time_stats(df, city, month, day):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -187,7 +184,6 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
@@ -208,7 +204,6 @@ def trip_duration_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 def user_stats(df, city):
     """Displays statistics on bikeshare users."""
@@ -246,7 +241,6 @@ def user_stats(df, city):
         print('The birth year of the youngest user:',recent_date)
         print('The most common birth year of the users:',common_date)
 
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -272,8 +266,7 @@ def display_data(df):
                     raw_choice=False
             
         elif answer_data == 'no':
-            raw_choice=False
-    
+            raw_choice=False 
 
 def main():
     while True:
